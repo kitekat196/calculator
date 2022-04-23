@@ -13,8 +13,8 @@ public class Test {
             if (Character.isDigit(numbers[0].charAt(0)) && Character.isDigit(numbers[2].charAt(0))) {
                 int first = Integer.parseInt(numbers[0]);
                 int second = Integer.parseInt(numbers[2]);
-                if((first > 10 || first < 0)|| (second > 10 || second < 0)){
-                    throw new Exception("одно из чисел больше 10 или меньше 0");
+                if((first > 10 || first < 1)|| (second > 10 || second < 1)){
+                    throw new Exception("одно из чисел больше 10 или меньше 1");
                 }
                 System.out.println(result(numbers[1], first, second));
             } else if (isRoman(numbers)) {
