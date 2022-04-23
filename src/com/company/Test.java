@@ -61,7 +61,7 @@ public class Test {
                 return i;
             }
         }
-        throw new Exception ("одно из чисел больше 10 или меньше 0");
+        throw new Exception ("одно из чисел больше 10 или меньше 1");
     }
 
     public static int result(String str, int first, int second) {
