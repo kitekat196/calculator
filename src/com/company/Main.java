@@ -1,6 +1,11 @@
 package com.company;
 
 public class Main {
+    public static void main(String[] args) throws Exception {
+        //System.out.println(calc("III * IX"));
+    }
+
+
     public static String calc(String input) throws Exception{
 
         String[] numbers;
